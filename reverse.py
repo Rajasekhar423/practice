@@ -1,10 +1,17 @@
-'''write a program to find the reverse of the given number'''
+''' write a program to find the reverse of the given number'''
 
+def reverse(num):
+    rev = 0
+    while num > 0:
+        rev = rev * 10 + num % 10
+        num //= 10
+    return rev  
 
-num=int(input("enter a number:"))
+def ispalindrome(num):
+    return num == reverse(num)
 
-rev=0
-while num>0:
-    rev=rev*10+num%10
-    num//=10
-print("rev num is:",rev)
+print(reverse(123))        
+print(ispalindrome(123))  
+
+print(reverse(121))        
+print(ispalindrome(121))
