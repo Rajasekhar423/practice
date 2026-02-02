@@ -1,1 +1,8 @@
 good morning
+
+story 20
+
+print("Good Morning")
+
+for (){
+console.log("good boy")}
