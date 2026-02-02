@@ -1,8 +1,17 @@
 good morning
 
+<<<<<<< Updated upstream
 story 20
 
 print("Good Morning")
 
 for (){
 console.log("good boy")}
+=======
+
+story 19
+print("hello world")
+if (x>5){
+console.log("hello world")
+}
+>>>>>>> Stashed changes
